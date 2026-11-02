@@ -1,0 +1,21 @@
+dict={'ramu':54,'venky':43,'raju':56}
+print(dict.keys())
+print(dict.values())
+dict['venky']=76
+dict['raju']=32
+print(dict)
+dict.update({'raju':65})
+print(dict)
+dict.update(arjun=76,rahim=63)
+dict.update({'rahul':65})
+print(dict)
+print(dict['arjun'])
+print(dict.get('rahul',65))
+dict.pop('arjun')
+print(dict)
+dict.popitem()
+print(dict)
+dict.clear()
+print(dict)
+del dict
+print(dict)
